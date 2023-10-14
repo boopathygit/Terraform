@@ -10,3 +10,9 @@ tags = {
     Name = "Test-server-git"
 }
 }
+output "pvt_ip"{
+   value = aws_instance.web.private_ip
+}
+output "pub_ip"{
+   value = aws_instance.web.public_ip
+}
