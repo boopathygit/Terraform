@@ -11,8 +11,8 @@ tags = {
 }
 }
 output "pvt_ip"{
-   value = aws_instance.web.private_ip
+   value = aws_instance.web1.private_ip
 }
 output "pub_ip"{
-   value = aws_instance.web.public_ip
+   value = aws_instance.web1.public_ip
 }
