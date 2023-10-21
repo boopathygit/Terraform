@@ -7,8 +7,8 @@ ami           = "ami-03131d9a8e6e8fad7"
 instance_type = "var.my_instance_type"
 key_name   = "maternew"
 tags = {
-    Name = "var.my_name"
-    Environment = "var.my_env"
+    Name = "Test Server"
+    Environment = "dev"
 }
 }
 output "pvt_ip"{
