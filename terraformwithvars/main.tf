@@ -3,7 +3,8 @@ provider "aws" {
 }
 resource "aws_instance" "web1" {
 #ami           = "ami-06e2b86bab2edf4ee"
-ami           = "ami-03131d9a8e6e8fad7"
+#ami           = "ami-03131d9a8e6e8fad7"
+ami           = var.my_ami
 instance_type = var.my_instance_type
 key_name   = "maternew"
 tags = {
