@@ -1,4 +1,4 @@
-variable "my_instance_type" {
+variable "Instance_Type" {
    	type = string
-      description = "MyInstanceType"
+      description = "My_Instance_Type"
 }
