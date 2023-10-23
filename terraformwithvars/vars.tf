@@ -1,4 +1,4 @@
 variable my_instance_type {
    	type = string
-      description = MyInstanceType
+      description = "MyInstanceType"
 }
