@@ -1,4 +1,4 @@
-vriable “my_instance_type” {
+variable “my_instance_type” {
    	type = string
       description = MyInstanceType
 }
