@@ -1,2 +1,2 @@
-my_instance_type = ${Instance_Type}
-my_ami = ${AMI}
+my_instance_type = "${Instance_Type}"
+my_ami = "${AMI}"
